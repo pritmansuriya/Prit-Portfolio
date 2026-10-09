@@ -194,7 +194,7 @@ export default function Hero() {
         }}
         className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2"
       >
-        <Link
+        {/* <Link
           href="#about"
           aria-label="Scroll to About section"
           className="group flex flex-col items-center gap-2"
@@ -213,7 +213,7 @@ export default function Hero() {
               className="h-2 w-1.5 rounded-full bg-blue-400"
             />
           </div>
-        </Link>
+        </Link> */}
       </motion.div>
     </section>
   );
