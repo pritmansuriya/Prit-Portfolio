@@ -1,3 +1,4 @@
+
 @import "tailwindcss";
 
 html {
@@ -5,8 +6,8 @@ html {
   scroll-padding-top: 80px;
 }
 
-
 body {
   min-height: 100vh;
-  background: #f8fafc;
+  background: #020617;
+  color: #f8fafc;
 }

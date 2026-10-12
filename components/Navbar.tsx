@@ -31,7 +31,7 @@ export default function Navbar() {
           href="#home"
           className="text-2xl font-bold text-blue-400 transition-colors duration-300 hover:text-blue-300"
         >
-          Prit<span className="text-blue-300">.</span>
+          PortFolio
         </Link>
 
         {/* Desktop Navigation */}

@@ -194,26 +194,7 @@ export default function Hero() {
         }}
         className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2"
       >
-        {/* <Link
-          href="#about"
-          aria-label="Scroll to About section"
-          className="group flex flex-col items-center gap-2"
-        >
-          <div className="flex h-10 w-6 items-start justify-center rounded-full border-2 border-blue-400/30 p-1 transition-colors duration-300 group-hover:border-blue-400">
-            <motion.div
-              animate={{
-                y: [0, 10, 0],
-                opacity: [1, 0.3, 1],
-              }}
-              transition={{
-                duration: 1.5,
-                repeat: Infinity,
-                ease: "easeInOut",
-              }}
-              className="h-2 w-1.5 rounded-full bg-blue-400"
-            />
-          </div>
-        </Link> */}
+        
       </motion.div>
     </section>
   );

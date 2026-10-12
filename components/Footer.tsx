@@ -34,7 +34,7 @@ export default function Footer() {
               href="#home"
               className="text-2xl font-bold text-blue-400 transition-colors duration-300 hover:text-blue-300"
             >
-              Prit<span className="text-blue-300">.</span>
+              Prit<span className="text-blue-300"></span>
             </Link>
 
             <p className="mt-3 max-w-sm text-sm leading-6 text-slate-400">

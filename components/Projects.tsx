@@ -6,20 +6,20 @@ import { FaGithub } from "react-icons/fa";
 import { motion } from "motion/react";
 
 const projects = [
-  {
-    title: "MERN Job Portal",
+ {
+    title: "React-App",
     description:
-      "A full-stack job portal where jobseekers can search and apply for jobs, while employers can post and manage job opportunities.",
-    image: "/images/job-portal.png",
+      "A modern and responsive React web application built with reusable components, multiple pages, routing and a clean user-friendly interface.",
+    image: "/images/react-app.jpg",
     technologies: [
-      "MongoDB",
-      "Express.js",
-      "React",
-      "Node.js",
-      "REST API",
+      "React.js",
+      "JavaScript",
+      "Tailwind CSS",
+      "React Router",
+      "Vite",
     ],
-    github: "https://github.com/pritmansuriya/Job-Portal",
-    live: "#",
+    github: "https://github.com/pritmansuriya/React-App",
+    live: "https://react-app-pink-zeta.vercel.app/",
   },
   {
     title: "Expense Tracker",
@@ -36,19 +36,20 @@ const projects = [
     github: "https://github.com/pritmansuriya/ExpenseTracker",
     live: "#",
   },
-  {
-    title: "React-App",
+  
+   {
+    title: "MERN Job Portal",
     description:
-      "A modern and responsive React web application built with reusable components, multiple pages, routing and a clean user-friendly interface.",
-    image: "/images/react-app.jpg",
+      "A full-stack job portal where jobseekers can search and apply for jobs, while employers can post and manage job opportunities.",
+    image: "/images/job-portal.png",
     technologies: [
-      "React.js",
-      "JavaScript",
-      "Tailwind CSS",
-      "React Router",
-      "Vite",
+      "MongoDB",
+      "Express.js",
+      "React",
+      "Node.js",
+      "REST API",
     ],
-    github: "https://github.com/pritmansuriya/React-App",
+    github: "https://github.com/pritmansuriya/Job-Portal",
     live: "#",
   },
 ];
