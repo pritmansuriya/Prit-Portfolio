@@ -192,7 +192,7 @@ export default function Experience() {
                     scale: 1.05,
                     y: -2,
                   }}
-                  className="rounded-lg border border-blue-400/10 bg-blue-500/10 px-3 py-2 text-sm font-medium text-blue-300 transition-all duration-300 hover:border-blue-400/30 hover:bg-blue-500 hover:text-white"
+                  className="rounded-lg border cursor-pointer border-blue-400/10 bg-blue-500/10 px-3 py-2 text-sm font-medium text-blue-300 transition-all duration-300 hover:border-blue-400/30 hover:bg-blue-500 hover:text-white"
                 >
                   {technology}
                 </motion.span>
