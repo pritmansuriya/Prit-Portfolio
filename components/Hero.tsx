@@ -13,7 +13,6 @@ export default function Hero() {
     >
       {/* Animated Background Effects */}
       <div className="pointer-events-none absolute inset-0 overflow-hidden">
-
         {/* Electric Blue Glow */}
         <motion.div
           animate={{
@@ -64,7 +63,6 @@ export default function Hero() {
 
       {/* Main Content */}
       <div className="relative z-10 mx-auto grid max-w-7xl items-center gap-12 md:grid-cols-2">
-
         {/* Left Content */}
         <motion.div
           initial={{ x: -80, opacity: 0 }}
@@ -73,31 +71,29 @@ export default function Hero() {
         >
           {/* Greeting */}
           <p className="mb-4 text-lg font-medium text-blue-400">
-            Hello, I&apos;m
+            WEB DEVELOPER INTERN @ DP INFOSOFT
           </p>
 
           {/* Name */}
-          <h1 className="text-5xl font-bold leading-tight text-slate-50 md:text-6xl">
-            Prit Mansuriya
+          <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+            Hi, I'm <span className="whitespace-nowrap">Prit Mansuriya</span>
           </h1>
 
           {/* Role */}
           <h2 className="mt-4 text-2xl font-semibold text-blue-300 md:text-3xl">
-            Frontend Developer
+            Frontend & MERN Stack Developer
           </h2>
 
           {/* Description */}
           <p className="mt-6 max-w-xl text-lg leading-8 text-slate-400">
-           I&apos;m a frontend-focused developer passionate about building
-            responsive and scalable web experiences. I work with HTML, CSS,
-            JavaScript, TypeScript, Tailwind CSS, React, and Next.js, while
-            also exploring full-stack development with Node.js, Express.js,
-            MongoDB, and React Native.
+            I&apos;m a developer passionate about building responsive,
+            user-friendly web applications. I work with React.js, JavaScript,
+            TypeScript, and Tailwind CSS, and build full-stack applications
+            using Node.js, Express.js, and MongoDB.
           </p>
 
           {/* Buttons */}
           <div className="mt-8 flex flex-wrap gap-4">
-
             {/* View Projects */}
             <Link
               href="#projects"
@@ -119,7 +115,6 @@ export default function Hero() {
 
           {/* Social Links */}
           <div className="mt-8 flex gap-5">
-
             {/* GitHub */}
             <Link
               href="https://github.com/pritmansuriya"
@@ -166,7 +161,6 @@ export default function Hero() {
             }}
             className="relative flex h-72 w-72 items-center justify-center rounded-full bg-blue-500/10 md:h-96 md:w-96"
           >
-
             {/* Glow */}
             <div className="absolute inset-0 rounded-full bg-blue-500/10 blur-2xl" />
 
@@ -193,9 +187,7 @@ export default function Hero() {
           duration: 0.8,
         }}
         className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2"
-      >
-        
-      </motion.div>
+      ></motion.div>
     </section>
   );
 }
